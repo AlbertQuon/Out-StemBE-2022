@@ -126,7 +126,7 @@ function CustomTable(data) {
 
     this.FindTopEducatorOfSubject = function(subject) {
         var highestViews = -1;
-        var educator = null;
+        var educator = "null";
         for (const name in this.table) {
             if (subject.trim() === this.table[name].subject.trim()) { // .trim() to fix whitespace issues
                 if (highestViews < this.table[name].views) {
@@ -140,7 +140,7 @@ function CustomTable(data) {
 
     this.FindTopEducator = function() {
         if (Object.keys(this.table).length == 0) {
-            return null;
+            return "null";
         }
         let highestViews = -1;
         let highestSubjectViews = -1;
@@ -211,7 +211,7 @@ function CustomTable(data) {
             }
         }
         
-        return null; 
+        return "null"; 
     }
 
     // Constructor
