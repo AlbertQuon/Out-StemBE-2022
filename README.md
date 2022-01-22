@@ -1,1 +1,2 @@
-# Out-StemBE-2022
+# AES Outreach Summer-2022-Interviews
+Solution for technical interview.
